@@ -1,0 +1,37 @@
+{
+  "name": "svg-to-excelidraw-bin",
+  "version": "1.0.0",
+  "description": "A command-line tool to convert SVG files to Excalidraw format",
+  "main": "src/converter.js",
+  "bin": {
+    "svg-to-excelidraw-bin": "bin/svg-to-excelidraw.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node bin/svg-to-excelidraw.js",
+    "dev": "node bin/svg-to-excelidraw.js",
+    "example": "node bin/svg-to-excelidraw.js example.svg --verbose",
+    "complex": "node bin/svg-to-excelidraw.js complex-example.svg --verbose",
+    "validate": "node validate.js",
+    "demo": "npm run example && npm run complex && npm run validate"
+  },
+  "keywords": [
+    "svg",
+    "excalidraw",
+    "converter",
+    "cli",
+    "bin"
+  ],
+  "author": "",
+  "license": "MIT",
+  "packageManager": "pnpm@10.13.1",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "dependencies": {
+    "@excalidraw/excalidraw": "^0.18.0",
+    "@excalidraw/utils": "0.1.3-test32",
+    "@xmldom/xmldom": "^0.9.8",
+    "commander": "^14.0.0"
+  }
+}

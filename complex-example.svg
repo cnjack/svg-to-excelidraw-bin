@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="300" height="250" xmlns="http://www.w3.org/2000/svg">
+  <!-- 矩形 -->
+  <rect x="20" y="20" width="80" height="60" fill="#ff6b6b" stroke="#d63031" stroke-width="2"/>
+  
+  <!-- 圆形 -->
+  <circle cx="180" cy="50" r="25" fill="#74b9ff" stroke="#0984e3" stroke-width="1.5"/>
+  
+  <!-- 椭圆 -->
+  <ellipse cx="250" cy="50" rx="30" ry="20" fill="#fd79a8" stroke="#e84393" stroke-width="1"/>
+  
+  <!-- 路径 -->
+  <path d="M 50 120 L 100 120 L 75 160 Z" fill="#55a3ff" stroke="#2d3436" stroke-width="2"/>
+  
+  <!-- 多边形路径 -->
+  <path d="M 150 120 Q 175 100 200 120 T 250 120" fill="none" stroke="#00b894" stroke-width="3"/>
+  
+  <!-- 文本 -->
+  <text x="50" y="200" font-family="Arial" font-size="18" fill="#2d3436">SVG Elements</text>
+  <text x="50" y="220" font-family="Arial" font-size="12" fill="#636e72">Converted to Excalidraw</text>
+</svg>
