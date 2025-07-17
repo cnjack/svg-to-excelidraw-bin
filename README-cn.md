@@ -153,6 +153,28 @@ svg-to-excelidraw-bin/
 2. **在 VS Code 中使用**: 安装 Excalidraw 插件
 3. **编程使用**: 作为 JSON 数据处理
 
+## 已知问题和限制
+
+⚠️ **重要提醒**: 本工具在处理复杂 SVG 文件时存在限制。详细信息请参考 [KNOWN_ISSUES.md](./KNOWN_ISSUES.md)：
+
+- **复杂路径问题**: 转换复杂SVG路径时可能丢失细节（如MCP图标示例）
+- **SVG命令支持有限**: 对曲线和弧形的支持较为基础
+- **性能考虑**: 大文件处理存在限制
+- **功能缺失**: 一些高级SVG特性尚未支持
+
+**建议**: 对于复杂SVG文件，请务必测试转换结果并使用提供的分析工具：
+
+```bash
+# 检查转换质量
+node visual-check.js input.svg output.excalidraw.json
+
+# 分析路径转换细节
+node analyze-path.js input.svg output.excalidraw.json
+
+# 验证输出格式
+node validate.js
+```
+
 ## 许可证
 
 MIT License - 详见 [LICENSE](LICENSE) 文件。

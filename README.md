@@ -198,6 +198,28 @@ Each element contains the complete set of properties required by Excalidraw:
 - Some advanced SVG features (gradients, filters) are not currently supported
 - Coordinate system transformation ensures accurate element positioning
 
+## Known Issues and Limitations
+
+⚠️ **Important:** This tool has limitations with complex SVG files. Please refer to [KNOWN_ISSUES.md](./KNOWN_ISSUES.md) for detailed information about:
+
+- **Complex Path Issues**: Loss of detail when converting intricate SVG paths (like the MCP icon example)
+- **Limited SVG Command Support**: Basic support for curves and arcs
+- **Performance Considerations**: Large file handling limitations
+- **Missing Features**: Advanced SVG features not yet supported
+
+**Recommendation:** Always test conversions with complex SVG files and use the provided analysis tools:
+
+```bash
+# Check conversion quality
+node visual-check.js input.svg output.excalidraw.json
+
+# Analyze path conversion details  
+node analyze-path.js input.svg output.excalidraw.json
+
+# Validate output format
+node validate.js
+```
+
 ## License
 
 MIT License - see the [LICENSE](LICENSE) file for details.

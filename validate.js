@@ -60,7 +60,8 @@ function validateExcalidrawFile(filePath) {
 // Validate example files in current directory
 const files = [
   'example.excalidraw.json',
-  'complex-example.excalidraw.json'
+  'complex-example.excalidraw.json',
+  'mcp_test.excalidraw.json'
 ];
 
 files.forEach(file => {

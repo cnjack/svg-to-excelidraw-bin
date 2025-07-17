@@ -1,0 +1,126 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "https://github.com/your-username/svg-to-excelidraw-bin",
+  "elements": [
+    {
+      "id": "DFrnmwUc",
+      "type": "freedraw",
+      "x": 50.752,
+      "y": 35.52,
+      "width": 911.8080000000001,
+      "height": 866.496,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "a0",
+      "roundness": null,
+      "seed": 680160626,
+      "versionNonce": 252152125,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1,
+      "link": null,
+      "locked": false,
+      "points": [
+        [
+          911.808,
+          447.488
+        ],
+        [
+          492.73599999999993,
+          866.496
+        ],
+        [
+          665.408,
+          291.52000000000004
+        ],
+        [
+          330.176,
+          626.88
+        ],
+        [
+          45.248,
+          509.504
+        ],
+        [
+          0,
+          464.32
+        ],
+        [
+          464.25600000000003,
+          0
+        ],
+        [
+          911.8080000000001,
+          447.488
+        ],
+        [
+          509.50399999999996,
+          246.4
+        ],
+        [
+          191.16799999999998,
+          564.8000000000001
+        ],
+        [
+          347.008,
+          720.6400000000001
+        ],
+        [
+          665.408,
+          402.24
+        ],
+        [
+          710.6560000000001,
+          447.488
+        ]
+      ],
+      "pressures": [],
+      "simulatePressure": true,
+      "lastCommittedPoint": null
+    }
+  ],
+  "appState": {
+    "gridSize": null,
+    "viewBackgroundColor": "#ffffff",
+    "currentItemStrokeColor": "#1e1e1e",
+    "currentItemBackgroundColor": "transparent",
+    "currentItemFillStyle": "solid",
+    "currentItemStrokeWidth": 1,
+    "currentItemStrokeStyle": "solid",
+    "currentItemRoughness": 1,
+    "currentItemOpacity": 100,
+    "currentItemFontFamily": 1,
+    "currentItemFontSize": 20,
+    "currentItemTextAlign": "left",
+    "currentItemStartArrowhead": null,
+    "currentItemEndArrowhead": null,
+    "scrollX": 0,
+    "scrollY": 0,
+    "zoom": {
+      "value": 1
+    },
+    "currentItemRoundness": "round",
+    "gridColor": {
+      "Bold": "#C9C9C9",
+      "Regular": "#EDEDED"
+    },
+    "currentStrokeOptions": null,
+    "previousGridSize": null,
+    "frameRendering": {
+      "enabled": true,
+      "clip": true,
+      "name": true,
+      "outline": true
+    }
+  },
+  "files": {}
+}
