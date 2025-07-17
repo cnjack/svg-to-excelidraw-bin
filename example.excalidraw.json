@@ -4,7 +4,7 @@
   "source": "https://github.com/your-username/svg-to-excelidraw-bin",
   "elements": [
     {
-      "id": "qvdcIXzq",
+      "id": "Cb28yfDI",
       "type": "rectangle",
       "x": 50,
       "y": 50,
@@ -24,8 +24,8 @@
       "roundness": {
         "type": 1
       },
-      "seed": 135408503,
-      "versionNonce": 649812470,
+      "seed": 956701791,
+      "versionNonce": 1049027119,
       "isDeleted": false,
       "boundElements": null,
       "updated": 1,
@@ -33,7 +33,7 @@
       "locked": false
     },
     {
-      "id": "_Ijif3Da",
+      "id": "XHOYXXPF",
       "type": "ellipse",
       "x": 70,
       "y": 70,
@@ -51,8 +51,8 @@
       "frameId": null,
       "index": "a1",
       "roundness": null,
-      "seed": 160540022,
-      "versionNonce": 632852018,
+      "seed": 2010993093,
+      "versionNonce": 1472215382,
       "isDeleted": false,
       "boundElements": null,
       "updated": 1,
@@ -60,10 +60,10 @@
       "locked": false
     },
     {
-      "id": "Prej-WLe",
+      "id": "S95xCTuE",
       "type": "text",
-      "x": 100,
-      "y": 144,
+      "x": 56.800000000000004,
+      "y": 147.2,
       "width": 86.39999999999999,
       "height": 19.2,
       "angle": 0,
@@ -78,8 +78,8 @@
       "frameId": null,
       "index": "a2",
       "roundness": null,
-      "seed": 279599476,
-      "versionNonce": 1442790643,
+      "seed": 703808249,
+      "versionNonce": 1204035791,
       "isDeleted": false,
       "boundElements": null,
       "updated": 1,
@@ -88,7 +88,7 @@
       "text": "Hello SVG",
       "fontSize": 16,
       "fontFamily": 3,
-      "textAlign": "left",
+      "textAlign": "center",
       "verticalAlign": "top",
       "containerId": null,
       "originalText": "Hello SVG",

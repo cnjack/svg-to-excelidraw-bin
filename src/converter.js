@@ -268,13 +268,30 @@ function convertSvgToExcalidraw(svgContent, options = {}) {
       const fill = text.getAttribute('fill') || '#1e1e1e';
       const fontFamily = text.getAttribute('font-family') || 'Virgil';
       const opacity = parseFloat(text.getAttribute('opacity')) || 1;
+      const textAnchor = text.getAttribute('text-anchor') || 'start';
       
       // Estimate text dimensions - this is a simplified calculation
       const charWidth = fontSize * 0.6; // Estimate character width
       const estimatedWidth = content.length * charWidth;
       const lineHeight = fontSize * 1.2;
       
-      const element = createBaseElement('text', x, y - fontSize, estimatedWidth, lineHeight, elementIndex++);
+      // Calculate text position based on text-anchor
+      let textX = x;
+      let textAlign = 'left';
+      
+      if (textAnchor === 'middle') {
+        textX = x - estimatedWidth / 2;
+        textAlign = 'center';
+      } else if (textAnchor === 'end') {
+        textX = x - estimatedWidth;
+        textAlign = 'right';
+      }
+      
+      // In SVG, y coordinate is baseline, in Excalidraw it's top
+      // Adjust y coordinate to account for this difference
+      const textY = y - fontSize * 0.8; // Approximate baseline to top conversion
+      
+      const element = createBaseElement('text', textX, textY, estimatedWidth, lineHeight, elementIndex++);
       element.strokeColor = fill;
       element.backgroundColor = 'transparent';
       element.fillStyle = 'solid';
@@ -283,7 +300,7 @@ function convertSvgToExcalidraw(svgContent, options = {}) {
       element.text = content;
       element.fontSize = fontSize;
       element.fontFamily = fontFamily === 'Virgil' ? 1 : fontFamily === 'Cascadia' ? 2 : 3;
-      element.textAlign = 'left';
+      element.textAlign = textAlign;
       element.verticalAlign = 'top';
       element.containerId = null;
       element.originalText = content;

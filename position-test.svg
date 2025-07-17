@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="300" height="300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Test rectangle position -->
+  <rect x="10" y="10" width="50" height="30" fill="red" stroke="black" stroke-width="1"/>
+  
+  <!-- Test circle position -->
+  <circle cx="100" cy="50" r="20" fill="blue" stroke="green" stroke-width="2"/>
+  
+  <!-- Test ellipse position -->
+  <ellipse cx="200" cy="50" rx="30" ry="15" fill="yellow" stroke="purple" stroke-width="1"/>
+  
+  <!-- Test text with different anchors -->
+  <text x="50" y="100" font-size="12" fill="black" text-anchor="start">Start Text</text>
+  <text x="150" y="120" font-size="14" fill="red" text-anchor="middle">Middle Text</text>
+  <text x="250" y="140" font-size="16" fill="blue" text-anchor="end">End Text</text>
+  
+  <!-- Test path -->
+  <path d="M 50 150 L 100 150 L 75 200 Z" fill="orange" stroke="brown" stroke-width="2"/>
+  
+  <!-- Test complex shapes -->
+  <rect x="150" y="180" width="40" height="40" fill="lightgreen" opacity="0.7"/>
+  <circle cx="220" cy="200" r="25" fill="pink" opacity="0.5"/>
+</svg>
